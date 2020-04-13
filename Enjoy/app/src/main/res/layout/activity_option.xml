@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_option"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bhagi.enjoy.OptionActivity">
+
+
+    <Button
+        android:text="Funny Jokes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/hindi_jocks"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <Button
+        android:text="Interesting Facts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/intrst_fact"
+        android:layout_below="@+id/hindi_jocks"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_green_dark"/>
+
+    <Button
+        android:text="Indian History"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/history"
+        android:layout_below="@+id/motivation"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_green_dark"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="General Knowledge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/history"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/knowledge"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_green_dark"
+        android:radius= "15dp"
+        />
+
+    <Button
+        android:text="Sayari"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/sayari"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/knowledge"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_green_dark"
+        android:radius= "15dp"
+        />
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Mativational Stories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intrst_fact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/motivation"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_green_dark"
+        android:radius= "15dp"
+        />
+
+
+</RelativeLayout>
